@@ -17,6 +17,9 @@ public class Rock_Paper_Scissors {
             else if ((r == 2 && turn == 1) || (r == 3 && turn == 2) || (r == 1 && turn == 3)) {
                 JOptionPane.showMessageDialog(null, "You win !!!");
             }
+            else if(turn>3) {
+                JOptionPane.showMessageDialog(null,"Choose Number between 1 to 3...");
+            }
             else {
                 JOptionPane.showMessageDialog(null,"Match Draw...!!!");
             }
